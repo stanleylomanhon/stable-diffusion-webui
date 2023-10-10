@@ -1,11 +1,11 @@
 blendmodes==2022
-transformers==4.25.1
+transformers==4.30.0
 accelerate==0.12.0
 basicsr==1.4.2
 gfpgan==1.3.8
-gradio==3.23
+gradio==3.34.0
 numpy==1.23.3
-Pillow==9.4.0
+Pillow==10.0.1
 realesrgan==0.3.0
 torch
 omegaconf==2.2.3
@@ -23,8 +23,10 @@ torchdiffeq==0.2.3
 kornia==0.6.7
 lark==1.1.2
 inflection==0.5.1
-GitPython==3.1.30
+GitPython==3.1.35
 torchsde==0.2.5
 safetensors==0.3.0
 httpcore<=0.15
 fastapi==0.94.0
+starlette>=0.27.0 # not directly required, pinned by Snyk to avoid a vulnerability
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
