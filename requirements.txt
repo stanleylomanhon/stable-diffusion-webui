@@ -31,3 +31,4 @@ torchsde
 safetensors
 psutil
 rich
+orjson>=3.9.15 # not directly required, pinned by Snyk to avoid a vulnerability
