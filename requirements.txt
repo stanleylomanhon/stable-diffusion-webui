@@ -4,7 +4,7 @@ basicsr
 fonts
 font-roboto
 gfpgan
-gradio==3.23
+gradio==4.1.2
 invisible-watermark
 numpy
 omegaconf
