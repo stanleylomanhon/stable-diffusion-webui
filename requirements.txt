@@ -4,7 +4,7 @@ basicsr
 fonts
 font-roboto
 gfpgan
-gradio==3.23
+gradio==4.44.0
 invisible-watermark
 numpy
 omegaconf
@@ -31,3 +31,4 @@ torchsde
 safetensors
 psutil
 rich
+werkzeug>=3.0.6 # not directly required, pinned by Snyk to avoid a vulnerability
